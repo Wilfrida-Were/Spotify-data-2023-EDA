@@ -87,7 +87,7 @@ Karol G              4
 
 # Barplot of the Top 20 artists with most tracks
 
-[Barplot](/.Barplot of Top 20 artists with most tracks.png)
+[Barplot](/.Barplot%20of%20Top%2020%20artists%20with%20most%20tracks.png)
 
 # Impute vs Drop
 
