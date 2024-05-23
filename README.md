@@ -1,6 +1,6 @@
 # **Spotify data 2023 EDA**
 
-As a music🎵 enthusiast, I was interested in exploring this **[Spotify dataset](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)** to uncover interesting insights and correlations. I have performed a few analyses, and you can check them out in this **[Kaggle notebook](https://www.kaggle.com/code/wilfridawere/spotify-data-2023-eda)**
+As a music🎵 enthusiast, I was interested in exploring this **[Spotify dataset](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)** to uncover interesting insights and correlations. I will perform the following analyses, and you can check them out in this **[Kaggle notebook](https://www.kaggle.com/code/wilfridawere/spotify-data-2023-eda)**
 
 * **Number of Tracks released each year**
 
@@ -13,13 +13,13 @@ As a music🎵 enthusiast, I was interested in exploring this **[Spotify dataset
 
 # Data Cleaning
 
-The dataset had **953 rows and 24 columns**.
+The dataset has **953 rows and 24 columns**.
 
-I made a copy of the original dataset and named it *music.cleaned*
+I will a copy of the original dataset and name it *music.cleaned*
 
-There were missing values in the `in_shazam_charts` and `key` columns. I dropped the `in_shazam_charts` column. Didn't need it. The `key` column had **95** missing values.
+There are **Missing values** in the `in_shazam_charts` and `key` columns. I will drop the `in_shazam_charts` column. Don't need it. The `key` column has **95** missing values.
 
-I used  [Songbpm](https://songbpm.com/) to determine the key and mode for each track. I saved the values in a [CSV file](./Spotify%20Missing%20Keys%20(1).xlsx) and then imputed them in order.
+I use  [Songbpm](https://songbpm.com/) to determine the key and mode for each track. The values are saved in this [CSV file](./Spotify%20Missing%20Keys%20(1).xlsx) and then imputed in order
 
 # Number of Tracks released each year
 
@@ -72,7 +72,7 @@ Number of Tracks released before 2018: 174
 
 # Impute vs Drop
 
-I imputed the missing keys instead of dropping the 95 rows because it would have affected the ranking of other artists in the top 20 list. Taylor Swift would still be the top either way.
+I will impute the missing keys instead of dropping the 95 rows because dropping them will affect the ranking of other artists in the top 20 list. Taylor Swift would still be the top either way.
 
 # Top 20 Most Streamed Tracks
 
@@ -90,7 +90,7 @@ Energetic music can often be uplifting, exciting, or motivating.
 
 # Distribution of Key_Modes
 ​
-I added another column `key_mode`to combine the `key` and `mode `columns.
+During Data Cleaning, I added another column `key_mode`to combine the `key` and `mode `columns.
 
 | Keys used | Count |
 |---|---|
