@@ -1,4 +1,4 @@
-# **Spotify data 2023 EDA**
+# **Spotify data 2023 - Exploratory Data Analysis**
 
 As a music🎵 enthusiast, I was interested in exploring this **[Spotify dataset](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)** to uncover interesting insights and correlations. I will perform the following analyses, and you can check them out in this **[Kaggle notebook](https://www.kaggle.com/code/wilfridawere/spotify-data-2023-eda)**
 
